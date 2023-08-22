@@ -36,11 +36,11 @@ app.get('/', (req, res) => {
           <h1>Welcome!</h1>
           <p>API is under development.</p>
           <p>Click on the links below to access different routes:</p>
-          <a class="link" href="/api">API Home</a>
-          <a class="link" href="/api/1">Get Student by ID</a>
-          <a class="link" href="/api">Add Student</a>
-          <a class="link" href="/api/1">Delete Student</a>
-          <a class="link" href="/api/1">Update Student</a>
+          <a class="link" href="/api/v1/">API Home</a>
+          <a class="link" href="/api/v1/1">Get Student by ID - ADD id at end of URL!!!! </a>
+          <a class="link" href="/api/v1">Add Student</a>
+          <a class="link" href="/api/v1/1">Delete Student - ADD id at end of URL!!!!</a>
+          <a class="link" href="/api/v1/1">Update Student - ADD id at end of URL!!!!</a>
         </div>
       </body>
       </html>
